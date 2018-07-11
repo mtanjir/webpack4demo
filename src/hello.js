@@ -1,7 +1,3 @@
-define([], function() {
-  return {
-    sayHello: function() {
-      console.log("Hello world!");
-    }
-  }
-})
+export default function sayHello() {
+  console.log("Hello world!");
+};

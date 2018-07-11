@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mtanjir/webpack4demo#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",

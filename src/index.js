@@ -1,5 +1,5 @@
-var hello = require("./hello");
-var bye = require("./bye");
+import hello from "./hello";
+import bye from "./bye";
 
 hello.sayHello();
 bye.sayBye();
