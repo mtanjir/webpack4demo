@@ -1,7 +1,3 @@
-define([], function() {
-  return {
-    sayBye: function() {
-      console.log("Good bye!");
-    }
-  }
-})
+export default function sayBye() {
+  console.log("Good bye!");
+}
