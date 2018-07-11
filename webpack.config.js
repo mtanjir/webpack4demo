@@ -1,4 +1,6 @@
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
   mode: 'development',
@@ -19,5 +21,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'app.js'
-  }
+  },
+  plugins: [new HtmlWebpackPlugin()],
+  devtool: "none"//"source-map" // eval, none
 };
